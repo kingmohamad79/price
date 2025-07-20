@@ -1,0 +1,5 @@
+requests
+time 
+schedule
+colorama
+BeautifulSoup4
