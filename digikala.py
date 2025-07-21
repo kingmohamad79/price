@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time 
 import schedule
-from colorama import Fore
+
 
 
 TELEGRAM_TOKEN = '6972371515:AAFNr38MY6ihw2rQDd36Uw6_gIZhCg-qNVw'
@@ -16,9 +16,9 @@ def send_message(message):
     }
     try :
         response = requests.post(url,data=data)
-        print(Fore.BLUE + 'message send')
+        print('message send')
     except :
-        print(Fore.RED + 'message not send')
+        print('message not send')
 
 
 def price():
