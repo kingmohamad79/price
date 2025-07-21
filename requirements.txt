@@ -2,4 +2,4 @@ requests
 time 
 schedule
 colorama
-BeautifulSoup4
+beautifulsoup4
